@@ -6,7 +6,7 @@ const NavBar = () => {
     
     
     return (
-        <nav>
+        <nav className={styles.navFlex}>
             <img src={logo} alt="Befuddled logo"/>
             <h1>Befuddled</h1>
         </nav>
